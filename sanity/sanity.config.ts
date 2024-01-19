@@ -10,6 +10,9 @@ export default defineConfig({
   projectId: 'eicpgrzh',
   dataset: 'production',
 
+  basePath: '/studio', // Add this line
+
+
   plugins: [deskTool(), visionTool()],
 
   schema: {
